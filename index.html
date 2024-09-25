@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperfect Pictures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="explorer-window">
+        <div class="explorer-header">
+            <h1>Imperfect Pictures</h1>
+            <div class="window-controls">
+                <span>_</span>
+                <span>[ ]</span>
+                <span>X</span>
+            </div>
+        </div>
+        <div class="explorer-body">
+            <div class="desktop" id="desktop">
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="https://girlunline.com/phone.html" download>phone.html</a>
+                    <div class="artist-name">Isabelle Rosado</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/Blade as by Brandon English.zip" download>blade as.zip</a>
+                    <div class="artist-name">Brandon English</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/can-you-hear-me-over-the-files by Lu Gillespie.zip" download>can-you-hear-me-over-the-files.zip</a>
+                    <div class="artist-name">Lu Gillespie</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/christopher cote.zip" download>christopher cote.zip</a>
+                    <div class="artist-name">christopher cote</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/helen lin.zip" download>helen lin.zip</a>
+                    <div class="artist-name">helen lin</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/kelly mcgowan.zip" download>kelly mcgowan.zip</a>
+                    <div class="artist-name">kelly mcgowan</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/meditations on meandering by cecilia zhang.zip" download>meditations on meandering.zip</a>
+                    <div class="artist-name">cecilia zhang</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/nuebas bendisiones by diana gateno.zip" download>nuebas bendisiones.zip</a>
+                    <div class="artist-name">diana gateno</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/r-lostkeys by abel andrade.zip" download>r-lostkeys.zip</a>
+                    <div class="artist-name">a/bel andrade</div>
+                </div>
+                <div class="icon">
+                    <img src="folder-icon.gif" alt="Folder Icon">
+                    <a href="projects/r-lostkeys by abel andrade.zip" download>WhatsYourIPAddress.zip</a>
+                    <div class="artist-name">kayla henry-griffin</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function shuffleElements(container) {
+            for (let i = container.children.length; i >= 0; i--) {
+                container.appendChild(container.children[Math.random() * i | 0]);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const desktop = document.getElementById("desktop");
+            shuffleElements(desktop);
+        });
+    </script>
+</body>
+</html>
